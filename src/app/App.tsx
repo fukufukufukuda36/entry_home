@@ -93,6 +93,8 @@ export default function App() {
             <label className="block text-sm font-medium text-slate-800 mb-3">
               アクセスパスワード
             </label>
+             <p className="text-slate-700 text-xs text-center mt-6">
+            どれかひとつに答えてね
             <div className="grid grid-cols-1 gap-3">
               {questions.map((q, index) => (
                 <button
@@ -170,9 +172,6 @@ export default function App() {
               <span className="text-6xl">🐘</span>
             </button>
           </motion.form>
-
-          <p className="text-slate-700 text-xs text-center mt-6">
-            どれかひとつに答えてね
           </p>
         </div>
       </motion.div>
