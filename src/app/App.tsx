@@ -172,7 +172,6 @@ export default function App() {
               <span className="text-6xl">🐘</span>
             </button>
           </motion.form>
-          </p>
         </div>
       </motion.div>
     </div>
