@@ -94,7 +94,7 @@ export default function App() {
               アクセスパスワード
             </label>
              <p className="text-slate-700 text-xs text-center mt-6">
-            どれかひとつに答えてね
+            どれかひとつに答えてね</p>
             <div className="grid grid-cols-1 gap-3">
               {questions.map((q, index) => (
                 <button
