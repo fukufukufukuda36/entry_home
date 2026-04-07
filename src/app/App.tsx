@@ -20,7 +20,7 @@ const questions = [
 ];
 
 // Substackのリンク
-const SUBSTACK_URL = "https://fukufukufukuda.substack.com/archive";
+const SUBSTACK_URL = "https://fukufukufukuda.substack.com/";
 
 export default function App() {
   const [selectedQuestion, setSelectedQuestion] = useState(0);
